@@ -18,7 +18,7 @@ function logger(data) {
     }
     if (data.code) {
       process.exit(data.code);
-    }
+
   });
   return true;
 }
