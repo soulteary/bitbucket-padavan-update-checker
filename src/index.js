@@ -16,9 +16,7 @@ function logger(data) {
     if (err) {
       console.error(err);
     }
-    if (data.code) {
-      process.exit(data.code);
-
+    if (data.code) process.exit(data.code);
   });
   return true;
 }
